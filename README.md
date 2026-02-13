@@ -24,3 +24,30 @@ Enlace al formulario: [Resultados formulario](https://docs.google.com/spreadshee
 ## 2. Definición Funcional
 ### Historia de Usuario Principal (User Story)
 
+Como usuaria y paciente de el servicio médico suministrado por la EPS, y que requiere atención médica, quiero poder ver la disponibilidad de citas en tiempo real, recibir notificaciones cuando haya agendamiento y poder reservar desde mi celular, para así evitar llamadas y ahorrar tiempo.
+
+### Criterios de Aceptación (Definition of Done)
+
+• El sistema debe mostrar disponibilidad en tiempo real.
+
+• El usuario debe recibir una notificación de confirmación al agendar.
+
+• El usuario debe recibir una notificación cuando se suban mas citas al calendario.
+
+• El sistema debe enviar recordatorios 24 horas antes de la cita.
+
+• La aplicación debe funcionar en dispositivos móviles.
+
+### Requisitos Funcionales
+
+• RF-01: El sistema debe permitir el registro y autenticación de usuarios.
+
+• RF-02: El sistema debe mostrar un calendario con disponibilidad en tiempo real.
+
+• RF-03: El sistema debe validar conflictos de horario antes de confirmar una reserva.
+
+• RF-04: El sistema debe permitir reservar, cancelar y reprogramar citas.
+
+• RF-05: El sistema debe enviar notificaciones automáticas antes de la cita.
+
+• RF-06: El sistema debe almacenar el historial de citas en una base de datos.
