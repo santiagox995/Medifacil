@@ -51,3 +51,15 @@ Como usuaria y paciente de el servicio médico suministrado por la EPS, y que re
 • RF-05: El sistema debe enviar notificaciones automáticas antes de la cita.
 
 • RF-06: El sistema debe almacenar el historial de citas en una base de datos.
+
+### Requisitos No Funcionales
+
+• RNF-01: El sistema debe cifrar la información sensible del usuario mediante protocolos HTTPS
+
+• RNF-02: Las contraseñas deben almacenarse utilizando algoritmos de hash seguros
+
+• RNF-03: El tiempo de respuesta del sistema no debe superar los 2 segundos en condiciones normales.
+
+• RNF-04: La aplicación debe ser responsive y adaptable a dispositivos móviles y escritorio.
+
+• RNF-05: El proceso de agendamiento no debe requerir más de 4 pasos.
